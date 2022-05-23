@@ -16,26 +16,26 @@ The second tool will be a retirement planning tool that will use the Alpaca API 
 Part 1 - Personal Finance Planner
 In this section of the challenge, you will create a personal finance planner application. To develop the personal finance planner prototype, you should take into account the following assumptions:
 
-The average household income for each member of the credit union is $12,000.
+- The average household income for each member of the credit union is $12,000.
 
-Every union member has a savings portfolio composed of cryptocurrencies, stocks and bonds:
+- Every union member has a savings portfolio composed of cryptocurrencies, stocks and bonds:
 
-Assume the following amount of crypto assets: 1.2 BTC and 5.3 ETH.
+  - Assume the following amount of crypto assets: 1.2 BTC and 5.3 ETH.
 
-Assume the following amount of shares in stocks and bonds: 50 SPY (stocks) and 200 AGG (bonds).
+  - Assume the following amount of shares in stocks and bonds: 110 SPY (stocks) and 200 AGG (bonds).
 
 Use the starter Jupyter notebook to complete the following steps.
 
-Collect Crypto Prices Using the requests Library
-Create two variables called my_btc and my_eth. Set them equal to 1.2 and 5.3, respectively.
+### Collect Crypto Prices Using the requests Library
+ 1. Create two variables called my_btc and my_eth. Set them equal to 1.2 and 5.3, respectively.
 
-Use the requests library to fetch the current price in US dollars of bitcoin (BTC) and ethereum (ETH) using the Alternative Free Crypto API endpoints provided in the starter notebook.
+ 2. Use the requests library to fetch the current price in US dollars of bitcoin (BTC) and ethereum (ETH) using the Alternative Free Crypto API endpoints provided in the starter notebook.
 
-Parse the API JSON response to select only the crypto prices and store each price in a variable.
+ 3. Parse the API JSON response to select only the crypto prices and store each price in a variable.
 
-Hint: Be aware of the particular identifier for each cryptocurrency in the API JSON response - the bitcoin identifier is 1 whereas ethereum is 1027.
+<Hint:> Be aware of the particular identifier for each cryptocurrency in the API JSON response - the bitcoin identifier is 1 whereas ethereum is 1027.
 
-Compute the portfolio value of cryptocurrencies and print the results.
+ 4. Compute the portfolio value of cryptocurrencies and print the results.
 
 Collect Investments Data Using Alpaca: SPY (stocks) and AGG (bonds)
 Important: Remember to create a .env file in your working directory to store the values of your Alpaca API key and Alpaca secret key.
